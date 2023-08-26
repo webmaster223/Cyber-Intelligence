@@ -24,11 +24,11 @@ const Navbar = ({ auth: { isAuthenticated }, logout }) => {
         {/*  <Link to="/about">About Us</Link>*/}
         {/*</li>*/}
         <li>
-          <Link to="/searchResult">Search Result</Link>
+          <Link to="/searchResult">Search</Link>
         </li>
-        <li>
-          <Link to="/payment">Plan & Billing</Link>
-        </li>
+        {/*<li>*/}
+        {/*  <Link to="/payment">Plan & Billing</Link>*/}
+        {/*</li>*/}
         {/*/!*<li>*!/*/}
         {/*/!*  <Link to="/articleList">Articles</Link>*!/*/}
         {/*/!*</li>*!/*/}

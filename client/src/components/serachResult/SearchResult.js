@@ -208,15 +208,15 @@ const SearchResult = ({
                 </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-12">
-                <p className="follow-up-query-alarm">
-                  Please ask me follow up questions if you’d like more details.
-                  Answer not what you were looking for? Simply search again and
-                  I’ll do my best to produce an an appropriate answer
-                </p>
-              </div>
-            </div>
+            {/*<div className="row">*/}
+            {/*  <div className="col-md-12">*/}
+            {/*    <p className="follow-up-query-alarm">*/}
+            {/*      Please ask me follow up questions if you’d like more details.*/}
+            {/*      Answer not what you were looking for? Simply search again and*/}
+            {/*      I’ll do my best to produce an an appropriate answer*/}
+            {/*    </p>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
