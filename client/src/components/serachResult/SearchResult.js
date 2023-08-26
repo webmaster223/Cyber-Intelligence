@@ -186,24 +186,24 @@ const SearchResult = ({
                     style={inputstyle}
                   ></input>
                   <i
-                    className="fas fa-search search-icon"
+                    className="fas fa-play search-icon"
                     onClick={searchWithOpenai}
                   />
 
-                  {searchState ? (
-                    <button className="btn btn-danger search-btn generaging-btn">
-                      Searching
-                    </button>
-                  ) : (
-                    <>
-                      <button
-                        onClick={searchWithOpenai}
-                        className="btn btn-success home-search-btn"
-                      >
-                        Search
-                      </button>
-                    </>
-                  )}
+                  {/*{searchState ? (*/}
+                  {/*  <button className="btn btn-danger search-btn generaging-btn">*/}
+                  {/*    Searching*/}
+                  {/*  </button>*/}
+                  {/*) : (*/}
+                  {/*  <>*/}
+                  {/*    <button*/}
+                  {/*      onClick={searchWithOpenai}*/}
+                  {/*      className="btn btn-success home-search-btn"*/}
+                  {/*    >*/}
+                  {/*      Search*/}
+                  {/*    </button>*/}
+                  {/*  </>*/}
+                  {/*)}*/}
                   {/* {renderReSearchButton()} */}
                 </div>
               </div>
